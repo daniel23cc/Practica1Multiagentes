@@ -158,10 +158,11 @@ Antes de pasar con la presentación del agente se definirán las dos clases del 
 
 #### Clase `AgenteDemoJFrame`
 
-Mediante el asistente creamos una clase JFrame con el nombre de `AgenteDemoJFrame` . Realizamos el diseño gráfico mediante el botón de diseño. La ventana contendrá los siguientes elementos:
+Mediante el asistente creamos una clase `JFrame` con el nombre de `AgenteDemoJFrame` . Realizamos el diseño gráfico mediante el botón de diseño. 
 
 ![][imagen4]
-  
+
+La ventana contendrá los siguientes elementos:  
 -   `JTextArea`: Para presentar los mensajes del agente asociado.  
 -   `JButton`: Para lanzar el cuadro de diálogo que nos permitirá finalizar con la ejecución del agente.
     
@@ -170,7 +171,6 @@ El diseño de la interfaz debe atender unas normas de estilo apropiadas para sat
 ![][imagen5]
   
 Los elementos de personalización son los siguientes atributos privados:
-  
 -   Un atributo que nos permitirá enlazar el JFrame con su agente.  
 -   Un atributo para crear el cuadro de diálogo.
 
@@ -394,7 +394,7 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTkzNTg5MywtMTA1NzQzNjk5OCwxNj
-M1OTkxNDQ1LDgyMTcyNDQ1OSwxMDAwODcyOTk2LDE3NDk1NDI0
-NzBdfQ==
+eyJoaXN0b3J5IjpbNjMzMjYzNzI3LC0xMDU3NDM2OTk4LDE2Mz
+U5OTE0NDUsODIxNzI0NDU5LDEwMDA4NzI5OTYsMTc0OTU0MjQ3
+MF19
 -->
