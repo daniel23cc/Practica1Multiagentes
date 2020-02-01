@@ -16,7 +16,7 @@ Mediante el asistente, pinchamos en el icono ![][proyecto], seleccionaremos la o
 
 ![][imagen1]
 
-El nombre del proyecto es **PrimerAgente** y para el *Group Id* utilizaremos `com.uja.ssmmaa` y el indicador del curso en el que estamos `curso1920`. 
+El nombre del proyecto es **PrimerAgente** y para el *Group Id* utilizaremos `com.uja.ssmmaa` y el indicador del curso en el que estamos, por ejemplo, `curso1920`. 
 
 ![][imagen2]
 
@@ -396,5 +396,6 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDg3Mjk5NiwxNzQ5NTQyNDcwXX0=
+eyJoaXN0b3J5IjpbODIxNzI0NDU5LDEwMDA4NzI5OTYsMTc0OT
+U0MjQ3MF19
 -->
