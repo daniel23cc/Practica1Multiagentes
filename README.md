@@ -99,7 +99,7 @@ En la plantilla se describen un orden, como norma de estilo, que deberá seguir 
 
 El registro en las páginas amarillas será necesario para aquellos agentes que proveen de servicios a otros agentes. Los agentes que no estén en ese grupo no es obligatorio su registro, porque no serán buscados por otros agentes.
 
-Para añadir una tarea que el agente deba completar se invocará el método `addBehaviour(` [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html) `)`. De esta forma la tarea se añadirá a las que deba completar el agente y su ejecución se realiza en una arquitectura single thread. No se tendrá que tener cuidado por las secciones críticas pero sí para la sincronización.
+Para añadir una tarea que el agente deba completar se invocará el método `addBehaviour(` [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html) `)`. De esta forma la tarea se añadirá a las que deba completar el agente y su ejecución se realiza en una arquitectura *single thread*. No se tendrá que tener cuidado por las secciones críticas pero sí para la sincronización.
 
 #### Método `takeDown()`
 
@@ -394,6 +394,6 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTk2NDA1LDgyMTcyNDQ1OSwxMDAwOD
-cyOTk2LDE3NDk1NDI0NzBdfQ==
+eyJoaXN0b3J5IjpbMjExNTM3MDcyNSw4MjE3MjQ0NTksMTAwMD
+g3Mjk5NiwxNzQ5NTQyNDcwXX0=
 -->
