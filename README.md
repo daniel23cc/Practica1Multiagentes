@@ -375,13 +375,11 @@ Crear una nueva tarea al agente que realice lo siguiente:
 
 -   Cada vez que se complete una tarea cuyo número de ejecución sea **par**:
 	- muestre una secuencia de números, tantos como ejecuciones se hayan alcanzado.
-    
 -   Cada vez que se complete una tarea cuyo número de ejecución se **impar**:
 	- muestre la secuencia de fibonacci, tantos como ejecuciones se hayan alcanzado.
-    
 -   Cuando se alcancen las 10 ejecuciones finalizará esta tarea.
 
-
+---
 [proyecto]: https://gitlab.com/ssccdd/guionsesion1/raw/master/img/nuevoProyecto.jpg
 [imagen1]: https://gitlab.com/ssccdd/guionsesion1/raw/master/img/imagen1.jpg "Nuevo Proyecto"
 [imagen2]: https://gitlab.com/ssmmaa/guionsesion1/raw/master/img/imagen2.jpg "Nombre Proyecto"
@@ -396,6 +394,6 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxNzI0NDU5LDEwMDA4NzI5OTYsMTc0OT
-U0MjQ3MF19
+eyJoaXN0b3J5IjpbLTEwNDE3ODEwNTIsODIxNzI0NDU5LDEwMD
+A4NzI5OTYsMTc0OTU0MjQ3MF19
 -->
