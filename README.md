@@ -273,7 +273,7 @@ La inicialización del agente implica la creación de la interfaz y la presentac
 ```java
 @Override
 protected void setup() {
-	//Configuración del GUI y presentación
+    //Configuración del GUI y presentación
     myGui = new AgenteDemoJFrame(this);
     myGui.setVisible(true);
     myGui.presentarSalida("Se inicia la ejecución de " + this.getName() + "\n");
@@ -287,19 +287,18 @@ El siguiente paso es el registro en el servicio de páginas amarillas, en case s
 
 ```java
 ...
-	//Registro en Página Amarillas
-    DFAgentDescription dfd = new DFAgentDescription();
-    dfd.setName(getAID());
-	ServiceDescription sd = new ServiceDescription();
-	sd.setType("Tipo de Servicio");
-	sd.setName("Nombre del Servicio");
-	dfd.addServices(sd);
-	try {
-	    DFService.register(this, dfd);
-	}
-	catch (FIPAException fe) {
-        fe.printStackTrace();
-	}
+//Registro en Página Amarillas
+DFAgentDescription dfd = new DFAgentDescription();
+dfd.setName(getAID())
+ServiceDescription sd = new ServiceDescription();
+sd.setType("Tipo de Servicio");
+sd.setName("Nombre del Servicio");
+dfd.addServices(sd);
+try {
+    DFService.register(this, dfd);
+} catch (FIPAException fe) {
+    fe.printStackTrace();
+}
 ...
 ```
 
@@ -307,8 +306,8 @@ Para finalizar el método se crea la tarea cíclica que debe realizar el agente 
 
 ```java
 ...
-	// Se añaden las tareas principales
-    addBehaviour(new TareaEjemplo(this, TIEMPO_CICLO));
+// Se añaden las tareas principales
+addBehaviour(new TareaEjemplo(this, TIEMPO_CICLO));
 ...
 ```
 
@@ -318,8 +317,8 @@ Al igual que el proceso de registro hay que llevar el proceso de baja en las pá
 
 ```java
 ...
-	//Desregistro de las Páginas Amarillas
-    try {
+//Desregistro de las Páginas Amarillas
+try {
 	    DFService.deregister(this);
 	} catch (FIPAException fe) {
         fe.printStackTrace();
@@ -394,7 +393,7 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY1Mzk0ODEsNjMzMjYzNzI3LC0xMD
-U3NDM2OTk4LDE2MzU5OTE0NDUsODIxNzI0NDU5LDEwMDA4NzI5
-OTYsMTc0OTU0MjQ3MF19
+eyJoaXN0b3J5IjpbOTQ5MDExMDUyLDYzMzI2MzcyNywtMTA1Nz
+QzNjk5OCwxNjM1OTkxNDQ1LDgyMTcyNDQ1OSwxMDAwODcyOTk2
+LDE3NDk1NDI0NzBdfQ==
 -->
