@@ -81,7 +81,7 @@ Este es el método donde estará la inicialización del agente y la inclusión d
 ```java
 @Override
 protected void setup() {
-	//Inicialización de las variables del agente
+    //Inicialización de las variables del agente
        
     //Configuración del GUI
        
@@ -394,6 +394,6 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyODAwNzMzLDgyMTcyNDQ1OSwxMDAwOD
+eyJoaXN0b3J5IjpbMTUzMTk2NDA1LDgyMTcyNDQ1OSwxMDAwOD
 cyOTk2LDE3NDk1NDI0NzBdfQ==
 -->
