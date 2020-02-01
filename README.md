@@ -192,7 +192,7 @@ El constructor deberá dar valor al atributo que nos permitirá enlazar con el a
  * Creates new form AgenteDemoJFrame
  */
 public AgenteDemoJFrame(AgenteDemo myAgent) {
-	initComponents();
+    initComponents();
     this.myAgent = myAgent;
         
     this.setTitle(this.myAgent.getName());
@@ -203,11 +203,11 @@ Para poder incluir un mensaje en la interfaz se debe crear un método público p
 
 ```java
 public void presentarSalida (String msg) {
-	salidaTexto.append(msg);
+    salidaTexto.append(msg);
 }
 
 private void formWindowClosing(java.awt.event.WindowEvent evt) {                                   
-	// TODO add your handling code here:
+    // TODO add your handling code here:
     finalizacion = new FinalizacionDialog(this, true, myAgent);
     finalizacion.setVisible(true);
 }                                  
@@ -246,11 +246,11 @@ El botón de cancelación o la finalización del cuadro de diálogo no deben fin
 
 ```java
 private void botonFinActionPerformed(java.awt.event.ActionEvent evt) {
-	// TODO add your handling code here:
+    // TODO add your handling code here:
     myAgent.doDelete();
 }
 private void botonCancelarActionPerformed(java.awt.event.ActionEvent evt) {
-	// TODO add your handling code here:
+    // TODO add your handling code here:
     this.dispose();
 } 
 ```
@@ -394,7 +394,7 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTg0MDk1NjksNjMzMjYzNzI3LC0xMD
+eyJoaXN0b3J5IjpbLTE3MTY1Mzk0ODEsNjMzMjYzNzI3LC0xMD
 U3NDM2OTk4LDE2MzU5OTE0NDUsODIxNzI0NDU5LDEwMDA4NzI5
 OTYsMTc0OTU0MjQ3MF19
 -->
