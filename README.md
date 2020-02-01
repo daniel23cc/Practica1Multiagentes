@@ -24,18 +24,18 @@ Pulsamos el botón de finalización y el asistente crea la estructura básica de
 
 ```xml
 <repositories>
-	<repository>
-		<id>tilab</id>
-		<url>https://jade.tilab.com/maven/</url> 
-	</repository>
+    <repository>
+        <id>tilab</id>
+        <url>https://jade.tilab.com/maven/</url> 
+    </repository>
 </repositories>
 
 <dependencies>
-	<dependency> 
-		<groupId>com.tilab.jade</groupId> 
-		<artifactId>jade</artifactId> 
-		<version>4.5.0</version>
-	</dependency>
+    <dependency> 
+        <groupId>com.tilab.jade</groupId> 
+        <artifactId>jade</artifactId> 
+        <version>4.5.0</version>
+    </dependency>
 </dependencies>
 ```
 
@@ -394,7 +394,7 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzMjYzNzI3LC0xMDU3NDM2OTk4LDE2Mz
-U5OTE0NDUsODIxNzI0NDU5LDEwMDA4NzI5OTYsMTc0OTU0MjQ3
-MF19
+eyJoaXN0b3J5IjpbLTE3OTg0MDk1NjksNjMzMjYzNzI3LC0xMD
+U3NDM2OTk4LDE2MzU5OTE0NDUsODIxNzI0NDU5LDEwMDA4NzI5
+OTYsMTc0OTU0MjQ3MF19
 -->
