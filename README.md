@@ -319,10 +319,10 @@ Al igual que el proceso de registro hay que llevar el proceso de baja en las pá
 ...
 //Desregistro de las Páginas Amarillas
 try {
-	    DFService.deregister(this);
-	} catch (FIPAException fe) {
-        fe.printStackTrace();
-	}
+	DFService.deregister(this);
+} catch (FIPAException fe) {
+    fe.printStackTrace();
+}
 ...
 ```
 
@@ -330,9 +330,9 @@ El único recurso que tiene nuestro agente es su interfaz que deberemos liberar.
 
 ```java
 ...
-	//Se liberan los recuros y se despide
-    myGui.dispose();
-    System.out.println("Finaliza la ejecución de " + this.getName());
+//Se liberan los recuros y se despide
+myGui.dispose();
+System.out.println("Finaliza la ejecución de " + this.getName());
 ...
 ```
 
@@ -347,7 +347,7 @@ El nombre que utilizaremos para este tipo de clases siempre constará, como norm
 ```java
 //Clases que representan las tareas del agente
 public class TareaEjemplo extends TickerBehaviour {
-	//Tarea de ejemplo que se repite cada TIEMPO_CICLO segundos
+    //Tarea de ejemplo que se repite cada TIEMPO_CICLO segundos
     public TareaEjemplo(Agent a, long period) {
 	    super(a, period);
     }
@@ -359,7 +359,7 @@ De esta clase solo debemos implementar el método `onTick()` donde se indicará 
 ```java
 @Override
 protected void onTick() {
-	ejecuciones++;
+    ejecuciones++;
     myGui.presentarSalida("\nEjecución número: " + ejecuciones);
 }
 ```
@@ -393,7 +393,7 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5MDExMDUyLDYzMzI2MzcyNywtMTA1Nz
+eyJoaXN0b3J5IjpbMTkxNzkyODUyLDYzMzI2MzcyNywtMTA1Nz
 QzNjk5OCwxNjM1OTkxNDQ1LDgyMTcyNDQ1OSwxMDAwODcyOTk2
 LDE3NDk1NDI0NzBdfQ==
 -->
