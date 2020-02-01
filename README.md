@@ -76,12 +76,12 @@ Una vez que hemos definido nuestro agente incluimos las variables que sean neces
 
 #### Método `setup()`
 
-Este el el método donde estará la inicialización del agente y la inclusión de las tareas principales del mismo. El método se invoca cuando el gestor de la plataforma[^nota2] crea el agente en un contenedor. 
+Este es el método donde estará la inicialización del agente y la inclusión de las tareas principales del mismo. El método se invoca cuando el gestor de la plataforma[^nota2] crea el agente en un contenedor. 
 
 ```java
 @Override
 protected void setup() {
-	//Inicialización de las variables del agente
+//Inicialización de las variables del agente
        
     //Configuración del GUI
        
@@ -394,6 +394,6 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE3ODEwNTIsODIxNzI0NDU5LDEwMD
+eyJoaXN0b3J5IjpbLTE4MDgyNjc5MTUsODIxNzI0NDU5LDEwMD
 A4NzI5OTYsMTc0OTU0MjQ3MF19
 -->
