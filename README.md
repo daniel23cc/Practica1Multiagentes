@@ -131,7 +131,7 @@ Este agente está presente únicamente en el contenedor principal de la platafor
 
 ![](https://lh3.googleusercontent.com/urDFqcvS7bOhFBBygfpBvgcBnYxY5rQgpBcmV0zbdeHdSBbKfXbgkU1waOVH0MwP44jRpaxefA1hzaOPUbgm9szFMsdPUh8BaFVMyQuC8nFLSKiFLYm_YM0FFMemljgZdG11y1Xu)
 
-En la figura anterior vemos la ventana que se muestra para la creación del agente. Debemos elegir un nombre y la clase a la que pertenece al agente. Para ello podemos pulsar en el botón desplegable que nos mostrará todas las clases de agentes que conoce nuestro proyecto. Seleccionamos la clase a la que corresponde el agente que queremos que se añada a la plataforma.
+En la figura anterior vemos la ventana que se muestra para la creación del agente. Debemos elegir un nombre y la clase a la que pertenece el agente. Para ello podemos pulsar en el botón desplegable que nos mostrará todas las clases de agentes que conoce nuestro proyecto, vemos que. Seleccionamos la clase a la que corresponde el agente que queremos que se añada a la plataforma.
 
 ![](https://lh3.googleusercontent.com/GTTzk_8lNUHBeM0WHNNVeF37a91px3Go01oxlGYa4p1nLs3POUHSFhGNGH06TUhblGVtNkApKLhJQzF8neC7v9dTvTs1OK_l_VjyVjiz07Pk0Tu1VdkZll7reZ8ORI3ilmHe8RQO)
 
@@ -394,6 +394,6 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTk5MTQ0NSw4MjE3MjQ0NTksMTAwMD
-g3Mjk5NiwxNzQ5NTQyNDcwXX0=
+eyJoaXN0b3J5IjpbLTIzNzc0NTI4NCwxNjM1OTkxNDQ1LDgyMT
+cyNDQ1OSwxMDAwODcyOTk2LDE3NDk1NDI0NzBdfQ==
 -->
