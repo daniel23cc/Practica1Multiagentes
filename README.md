@@ -151,8 +151,8 @@ Se va a definir un agente que tiene el siguiente comportamiento:
   
 Creamos el proyecto [**NetBeans**](#11-crear-el-proyecto-netbeans-creaproyecto) cuyo nombre será `AgenteDemo`, siguiendo las indicaciones que se han presentado previamente en este guión. Una vez que se ha finalizado con la configuración del proyecto se crean dos paquetes:
 
--   Un paquete `gui`: Donde se incluirán dos clases: una para presentar la interfaz del agente y otra con el cuadro de diálogo para confirmar la finalización del mismo.
--   Un paquete `agentes`: En este paquete se creará la clase `AgenteDemo` que contiene la implementación de nuestro agente.
+-   Un paquete `gui`, donde se incluirán dos clases, una para presentar la interfaz del agente y otra con el cuadro de diálogo para confirmar la finalización del mismo.
+-   Un paquete `agentes`, en este paquete se creará la clase `AgenteDemo` que contiene la implementación de nuestro agente.
     
 Antes de pasar con la presentación del agente se definirán las dos clases del paquete `gui` con aquellos elementos que son los más interesantes.
 
@@ -394,7 +394,7 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDYxNDQxODUsLTEwNTc0MzY5OTgsMT
-YzNTk5MTQ0NSw4MjE3MjQ0NTksMTAwMDg3Mjk5NiwxNzQ5NTQy
-NDcwXX0=
+eyJoaXN0b3J5IjpbMTU1OTkzNTg5MywtMTA1NzQzNjk5OCwxNj
+M1OTkxNDQ1LDgyMTcyNDQ1OSwxMDAwODcyOTk2LDE3NDk1NDI0
+NzBdfQ==
 -->
