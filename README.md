@@ -135,18 +135,18 @@ En la figura anterior vemos la ventana que se muestra para la creación del agen
 
 ![](https://lh3.googleusercontent.com/GTTzk_8lNUHBeM0WHNNVeF37a91px3Go01oxlGYa4p1nLs3POUHSFhGNGH06TUhblGVtNkApKLhJQzF8neC7v9dTvTs1OK_l_VjyVjiz07Pk0Tu1VdkZll7reZ8ORI3ilmHe8RQO)
 
-Si completamos todos los pasos de forma apropiada se mostrará en el contenedor nuestro nuevo agente. Dependiendo de las capacidades del agente se podrá tener una visión gráfica o no del mismo. En la última parte del guión se mostrará un agente que tiene una interfaz gráfica y además realizará tareas que se mostrarán en la misma.
+Si completamos todos los pasos de forma apropiada se mostrará en el contenedor nuestro nuevo agente. Dependiendo de las capacidades del agente se podrá tener una visión gráfica o no del mismo. Mas adelante se mostrará un agente que tiene una interfaz gráfica y además realizará tareas que se mostrarán en la misma.
 
 #### Prueba de ejecución
 
-Probar si la ejecución del proyecto, `PrimerAgente`, y comprobar si produce algún resultado. Modificar el resultado para que solo muestre su nombre y no los detalles de la plataforma de agentes.
+Probar la ejecución del proyecto, `PrimerAgente`, y comprobar si produce algún resultado. Modificar el resultado para que solo muestre su nombre y no los detalles de la plataforma de agentes.
 
 ### 1.3 Definición del primer agente y tarea
 
 Se va a definir un agente que tiene el siguiente comportamiento:
 
 1.  Crea una ventana que servirá para mostrar los mensajes del agente. Además tendrá un botón que finalizará el agente mediante un cuadro de diálogo para confirmarlo.    
-2.  Registrar el agente en servicio de páginas amarillas.
+2.  Registra el agente en servicio de páginas amarillas.
 3.  Definir una tarea para el agente que sea periódica y que se repita cada 10 segundos. La acción de la tarea será incrementar un contador del agente que mostrará el número de veces que se ha ejecutado la tarea.
   
 Creamos el proyecto **NetBeans** cuyo nombre será `AgenteDemo`, siguiendo las indicaciones que se han presentado previamente en este guión. Una vez que se ha finalizado con la configuración del proyecto se crean dos paquetes:
@@ -394,6 +394,6 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTI5NTc5NjAsMTYzNTk5MTQ0NSw4Mj
-E3MjQ0NTksMTAwMDg3Mjk5NiwxNzQ5NTQyNDcwXX0=
+eyJoaXN0b3J5IjpbMTgyNjM1NzY3NywxNjM1OTkxNDQ1LDgyMT
+cyNDQ1OSwxMDAwODcyOTk2LDE3NDk1NDI0NzBdfQ==
 -->
