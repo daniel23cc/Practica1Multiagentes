@@ -1,7 +1,7 @@
 # Guión de Prácticas
 ## 1. Introducción: Crear un primer agente
 
-El objetivo de esta práctica es una primera toma de contacto con el sistema multi-agente que se utilizará a lo largo de la asignatura.
+El objetivo de esta práctica es una primera toma de contacto con el [sistema multi-agente](https://jade.tilab.com/) que se utilizará a lo largo de la asignatura.
 
 Los **objetivos** de esta práctica son los siguientes:
 
@@ -396,5 +396,5 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTU0MjQ3MF19
+eyJoaXN0b3J5IjpbMTAwMDg3Mjk5NiwxNzQ5NTQyNDcwXX0=
 -->
