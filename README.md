@@ -9,7 +9,7 @@ Los **objetivos** de esta práctica son los siguientes:
 -   Presentar la estructura general que deberá tener una clase que represente un agente en el desarrollo de las prácticas.
 -   Por último, la creación de un primer agente para tomar contacto con la biblioteca multi-agente que se utilizará.
 
-<a name=”crearProyecto″></a>
+{#crearProyecto}
 ### 1.1 Crear el Proyecto NetBeans
 
 Vamos a presentar la estructura general que deberán tener todos los proyectos que se crearán para las prácticas. El entorno de desarrollo elegido es NetBeans 11.2, aunque será válido siempre que sea NetBeans 11.x. No estará permitido otro entorno de desarrollo en las prácticas. Además debemos asegurarnos que la versión de Java sea la 1.8.
@@ -394,7 +394,7 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzNTczODQ3LDYzMzI2MzcyNywtMTA1Nz
-QzNjk5OCwxNjM1OTkxNDQ1LDgyMTcyNDQ1OSwxMDAwODcyOTk2
-LDE3NDk1NDI0NzBdfQ==
+eyJoaXN0b3J5IjpbMTYyNDgyMjYyMyw2MzMyNjM3MjcsLTEwNT
+c0MzY5OTgsMTYzNTk5MTQ0NSw4MjE3MjQ0NTksMTAwMDg3Mjk5
+NiwxNzQ5NTQyNDcwXX0=
 -->
