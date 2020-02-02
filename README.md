@@ -9,6 +9,7 @@ Los **objetivos** de esta práctica son los siguientes:
 -   Presentar la estructura general que deberá tener una clase que represente un agente en el desarrollo de las prácticas.
 -   Por último, la creación de un primer agente para tomar contacto con la biblioteca multi-agente que se utilizará.
 
+<a name=”crearProyecto″></a>
 ### 1.1 Crear el Proyecto NetBeans
 
 Vamos a presentar la estructura general que deberán tener todos los proyectos que se crearán para las prácticas. El entorno de desarrollo elegido es NetBeans 11.2, aunque será válido siempre que sea NetBeans 11.x. No estará permitido otro entorno de desarrollo en las prácticas. Además debemos asegurarnos que la versión de Java sea la 1.8.
@@ -149,7 +150,7 @@ Se va a definir un agente que tiene el siguiente comportamiento:
 2.  Registra el agente en servicio de páginas amarillas.
 3.  Se diseña una tarea para el agente que sea periódica y que se repita cada `TIEMPO_CICLO` segundos. La acción de la tarea será incrementar un contador del agente que mostrará el número de veces que se ha ejecutado la tarea.
   
-Creamos el proyecto [**NetBeans**](#11-crear-el-proyecto-netbeans-creaproyecto) cuyo nombre será `AgenteDemo`, siguiendo las indicaciones que se han presentado previamente en este guión. Una vez que se ha finalizado con la configuración del proyecto se crean dos paquetes:
+Creamos el [proyecto **NetBeans**](#crearProyecto) cuyo nombre será `AgenteDemo`, siguiendo las indicaciones que se han presentado previamente en este guión. Una vez que se ha finalizado con la configuración del proyecto se crean dos paquetes:
 
 -   Un paquete `gui`, donde se incluirán dos clases, una para presentar la interfaz del agente y otra con el cuadro de diálogo para confirmar la finalización del mismo.
 -   Un paquete `agentes`, en este paquete se creará la clase `AgenteDemo` que contiene la implementación de nuestro agente.
@@ -393,7 +394,7 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzkyODUyLDYzMzI2MzcyNywtMTA1Nz
+eyJoaXN0b3J5IjpbNDIzNTczODQ3LDYzMzI2MzcyNywtMTA1Nz
 QzNjk5OCwxNjM1OTkxNDQ1LDgyMTcyNDQ1OSwxMDAwODcyOTk2
 LDE3NDk1NDI0NzBdfQ==
 -->
