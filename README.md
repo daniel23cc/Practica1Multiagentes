@@ -370,7 +370,7 @@ De esta forma queda completo el proyecto con las especificaciones que se habían
 
 Tomando como punto de partida la [etiqueta v2.0](https://gitlab.com/ssmmaa/guionsesion1/-/archive/v2.0/guionsesion1-v2.0.zip), del proyecto, realizar una modificación en la interfaz para que no se pueda finalizar la ejecución del agente hasta que no haya completado, al menos, 4 ejecuciones de la tarea `TareaEjemplo`.
 
-Además una nueva tarea al agente que realice lo siguiente:
+Además, crear una nueva tarea al agente que realice lo siguiente:
 
 -   Cada vez que se complete una tarea cuyo número de ejecución sea **par**:
 	- muestre una secuencia de números, tantos como ejecuciones se hayan alcanzado.
@@ -393,7 +393,7 @@ Además una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDQ5Njc0MCwtMTYxNzAxOTU5Miw2Mz
+eyJoaXN0b3J5IjpbMTA4NjQzNDY4NSwtMTYxNzAxOTU5Miw2Mz
 MyNjM3MjcsLTEwNTc0MzY5OTgsMTYzNTk5MTQ0NSw4MjE3MjQ0
 NTksMTAwMDg3Mjk5NiwxNzQ5NTQyNDcwXX0=
 -->
