@@ -368,7 +368,7 @@ De esta forma queda completo el proyecto con las especificaciones que se habían
 
 ### 1.4 Modificación Propuesta
 
-Realizar una modificación en la interfaz para que no se pueda finalizar la ejecución del agente hasta que no haya completado, al menos, 4 ejecuciones de la tarea `TareaEjemplo`.
+Tomando como punto de partida la versión 2.0 del proyecto, realizar una modificación en la interfaz para que no se pueda finalizar la ejecución del agente hasta que no haya completado, al menos, 4 ejecuciones de la tarea `TareaEjemplo`.
 
 Crear una nueva tarea al agente que realice lo siguiente:
 
@@ -393,7 +393,7 @@ Crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTcwMTk1OTIsNjMzMjYzNzI3LC0xMD
-U3NDM2OTk4LDE2MzU5OTE0NDUsODIxNzI0NDU5LDEwMDA4NzI5
-OTYsMTc0OTU0MjQ3MF19
+eyJoaXN0b3J5IjpbLTE4NzcxNDI0OTksLTE2MTcwMTk1OTIsNj
+MzMjYzNzI3LC0xMDU3NDM2OTk4LDE2MzU5OTE0NDUsODIxNzI0
+NDU5LDEwMDA4NzI5OTYsMTc0OTU0MjQ3MF19
 -->
