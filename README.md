@@ -162,6 +162,8 @@ Mediante el asistente creamos una clase `JFrame` con el nombre de `AgenteDemoJFr
 
 ![][imagen4]
 
+El asistente nos crea la estructura de la clase que personalizaremos para que
+
 La ventana contendrá los siguientes elementos:  
 -   `JTextArea`: Para presentar los mensajes del agente asociado.  
 -   `JButton`: Para lanzar el cuadro de diálogo que nos permitirá finalizar con la ejecución del agente.
@@ -393,7 +395,8 @@ Además, crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjQzNDY4NSwtMTYxNzAxOTU5Miw2Mz
-MyNjM3MjcsLTEwNTc0MzY5OTgsMTYzNTk5MTQ0NSw4MjE3MjQ0
-NTksMTAwMDg3Mjk5NiwxNzQ5NTQyNDcwXX0=
+eyJoaXN0b3J5IjpbMTQyMTQ3OTAzNCwxMDg2NDM0Njg1LC0xNj
+E3MDE5NTkyLDYzMzI2MzcyNywtMTA1NzQzNjk5OCwxNjM1OTkx
+NDQ1LDgyMTcyNDQ1OSwxMDAwODcyOTk2LDE3NDk1NDI0NzBdfQ
+==
 -->
