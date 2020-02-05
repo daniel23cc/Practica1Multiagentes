@@ -162,7 +162,7 @@ Mediante el asistente creamos una clase `JFrame` con el nombre de `AgenteDemoJFr
 
 ![][imagen4]
 
-El asistente nos crea la estructura de la clase que personalizaremos para que se adapte a nuestras necesidades. De la clase que nos crea el asistente hay que eliminar el método `main(.)` ya que la creación de está clase estará en el método se
+El asistente nos crea la estructura de la clase que personalizaremos para que se adapte a nuestras necesidades. De la clase que nos crea el asistente hay que eliminar el método `main(.)` ya que la creación de está clase estará en el método `setup()` del agente.
 
 La ventana contendrá los siguientes elementos:  
 -   `JTextArea`: Para presentar los mensajes del agente asociado.  
@@ -395,8 +395,7 @@ Además, crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDk1Mzk0NzcsMTA4NjQzNDY4NSwtMT
-YxNzAxOTU5Miw2MzMyNjM3MjcsLTEwNTc0MzY5OTgsMTYzNTk5
-MTQ0NSw4MjE3MjQ0NTksMTAwMDg3Mjk5NiwxNzQ5NTQyNDcwXX
-0=
+eyJoaXN0b3J5IjpbNDgwNDM1MDk0LDEwODY0MzQ2ODUsLTE2MT
+cwMTk1OTIsNjMzMjYzNzI3LC0xMDU3NDM2OTk4LDE2MzU5OTE0
+NDUsODIxNzI0NDU5LDEwMDA4NzI5OTYsMTc0OTU0MjQ3MF19
 -->
