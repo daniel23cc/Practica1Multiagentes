@@ -42,6 +42,8 @@ Pulsamos el botón de finalización y el asistente crea la estructura básica de
 
 De esta forma ya tendremos configuradas las dependencias necesarias para el desarrollo de nuestro proyecto. De este modo funcionará independientemente del ordenador donde desarrollemos nuestro proyecto. También podemos clonar el proyecto y personalizarlo para que se adapte a nuestras necesidades concretas.
 
+Para evitar problemas con la caducidad de los certificados en el servidor tenemos que configurar una directiva para la compilación del proyecto
+
 El siguiente paso es configurar la ejecución de nuestro proyecto para poder realizar las pruebas necesarias del mismo. Para ello seleccionamos las propiedades del proyecto y localizamos la propiedad que se refiere a la ejecución. Configuramos esta propiedad con las opciones que se muestran en la imagen:
 
 ![][imagen3] 
@@ -396,8 +398,8 @@ Además, crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjE2NjA4LDc3MjUwODgxLDQ4MDQzNT
-A5NCwxMDg2NDM0Njg1LC0xNjE3MDE5NTkyLDYzMzI2MzcyNywt
-MTA1NzQzNjk5OCwxNjM1OTkxNDQ1LDgyMTcyNDQ1OSwxMDAwOD
-cyOTk2LDE3NDk1NDI0NzBdfQ==
+eyJoaXN0b3J5IjpbNjcxMDM1MzAsNzcyNTA4ODEsNDgwNDM1MD
+k0LDEwODY0MzQ2ODUsLTE2MTcwMTk1OTIsNjMzMjYzNzI3LC0x
+MDU3NDM2OTk4LDE2MzU5OTE0NDUsODIxNzI0NDU5LDEwMDA4Nz
+I5OTYsMTc0OTU0MjQ3MF19
 -->
