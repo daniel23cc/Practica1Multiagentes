@@ -42,7 +42,11 @@ Pulsamos el botón de finalización y el asistente crea la estructura básica de
 
 De esta forma ya tendremos configuradas las dependencias necesarias para el desarrollo de nuestro proyecto. De este modo funcionará independientemente del ordenador donde desarrollemos nuestro proyecto. También podemos clonar el proyecto y personalizarlo para que se adapte a nuestras necesidades concretas.
 
-Para evitar problemas con la caducidad de los certificados en el servidor tenemos que configurar una directiva para la compilación del proyecto
+Para evitar problemas con la caducidad de los certificados en el servidor tenemos que configurar una directiva para la compilación del proyecto:
+
+![][config1]
+
+Como no tendremos creada una dir
 
 El siguiente paso es configurar la ejecución de nuestro proyecto para poder realizar las pruebas necesarias del mismo. Para ello seleccionamos las propiedades del proyecto y localizamos la propiedad que se refiere a la ejecución. Configuramos esta propiedad con las opciones que se muestran en la imagen:
 
@@ -393,7 +397,7 @@ Además, crear una nueva tarea al agente que realice lo siguiente:
 [imagen6]: https://gitlab.com/ssmmaa/guionsesion1/raw/master/img/imagen6.jpg
 [config1]:https://gitlab.com/ssmmaa/guionsesion1/-/blob/master/img/config.jpg "Configurar compilación"
 [config2]:https://gitlab.com/ssmmaa/guionsesion1/-/blob/master/img/config1.jpg "Crear directiva"
-[config3]:
+[config3]:https://gitlab.com/ssmmaa/guionsesion1/-/blob/master/img/config2.jpg "Añadir las directivas"
 [crearAgente]: https://gitlab.com/ssmmaa/guionsesion1/raw/master/img/crearAgente.jpg
 
 [^nota1]: Las variables del agente se declaran privadas como norma de estilo.
@@ -401,8 +405,8 @@ Además, crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjUzMTQ0NTUsNzcyNTA4ODEsNDgwND
-M1MDk0LDEwODY0MzQ2ODUsLTE2MTcwMTk1OTIsNjMzMjYzNzI3
-LC0xMDU3NDM2OTk4LDE2MzU5OTE0NDUsODIxNzI0NDU5LDEwMD
-A4NzI5OTYsMTc0OTU0MjQ3MF19
+eyJoaXN0b3J5IjpbLTU5NjM2MDk4LDc3MjUwODgxLDQ4MDQzNT
+A5NCwxMDg2NDM0Njg1LC0xNjE3MDE5NTkyLDYzMzI2MzcyNywt
+MTA1NzQzNjk5OCwxNjM1OTkxNDQ1LDgyMTcyNDQ1OSwxMDAwOD
+cyOTk2LDE3NDk1NDI0NzBdfQ==
 -->
