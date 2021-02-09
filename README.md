@@ -46,7 +46,13 @@ Para evitar problemas con la caducidad de los certificados en el servidor tenemo
 
 ![][config1]
 
-Como no tendremos creada una dir
+Elegimos la opción de configurar una nueva y la añadimos dándole un nombre:
+
+![][config2]
+
+Y para finalizar incluimos las directivas que permiten descargar la biblioteca aunque el certificado en el servidor esté caducado:
+
+![][config3]
 
 El siguiente paso es configurar la ejecución de nuestro proyecto para poder realizar las pruebas necesarias del mismo. Para ello seleccionamos las propiedades del proyecto y localizamos la propiedad que se refiere a la ejecución. Configuramos esta propiedad con las opciones que se muestran en la imagen:
 
@@ -405,7 +411,7 @@ Además, crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NjM2MDk4LDc3MjUwODgxLDQ4MDQzNT
+eyJoaXN0b3J5IjpbNjM4ODI4NTAyLDc3MjUwODgxLDQ4MDQzNT
 A5NCwxMDg2NDM0Njg1LC0xNjE3MDE5NTkyLDYzMzI2MzcyNywt
 MTA1NzQzNjk5OCwxNjM1OTkxNDQ1LDgyMTcyNDQ1OSwxMDAwOD
 cyOTk2LDE3NDk1NDI0NzBdfQ==
