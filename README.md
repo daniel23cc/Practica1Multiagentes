@@ -391,6 +391,9 @@ Además, crear una nueva tarea al agente que realice lo siguiente:
 [imagen4]: https://gitlab.com/ssmmaa/guionsesion1/raw/master/img/imagen4.jpg "Crear JFrame"
 [imagen5]: https://gitlab.com/ssmmaa/guionsesion1/raw/master/img/imagen5.jpg
 [imagen6]: https://gitlab.com/ssmmaa/guionsesion1/raw/master/img/imagen6.jpg
+[config1]:https://gitlab.com/ssmmaa/guionsesion1/-/blob/master/img/config.jpg "Configurar compilación"
+[config2]:https://gitlab.com/ssmmaa/guionsesion1/-/blob/master/img/config1.jpg "Crear directiva"
+[config3]:
 [crearAgente]: https://gitlab.com/ssmmaa/guionsesion1/raw/master/img/crearAgente.jpg
 
 [^nota1]: Las variables del agente se declaran privadas como norma de estilo.
@@ -398,8 +401,8 @@ Además, crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxMDM1MzAsNzcyNTA4ODEsNDgwNDM1MD
-k0LDEwODY0MzQ2ODUsLTE2MTcwMTk1OTIsNjMzMjYzNzI3LC0x
-MDU3NDM2OTk4LDE2MzU5OTE0NDUsODIxNzI0NDU5LDEwMDA4Nz
-I5OTYsMTc0OTU0MjQ3MF19
+eyJoaXN0b3J5IjpbLTEzNjUzMTQ0NTUsNzcyNTA4ODEsNDgwND
+M1MDk0LDEwODY0MzQ2ODUsLTE2MTcwMTk1OTIsNjMzMjYzNzI3
+LC0xMDU3NDM2OTk4LDE2MzU5OTE0NDUsODIxNzI0NDU5LDEwMD
+A4NzI5OTYsMTc0OTU0MjQ3MF19
 -->
