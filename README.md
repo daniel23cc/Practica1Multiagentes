@@ -1,4 +1,4 @@
-[![logo](https://www.gnu.org/graphics/gplv3-127x51.png)](https://choosealicense.com/licenses/gpl-3.0/)
+[![logo](https:///graphics/gplv3-127x51.png)](https://choosealicense.com/licenses/gpl-3.0)
 # Guión de Prácticas
 ## 1. Introducción: Crear un primer agente
 
@@ -411,8 +411,8 @@ Además, crear una nueva tarea al agente que realice lo siguiente:
 [^nota3]: Definición de las clases que heredan de [Behaviour](https://jade.tilab.com/doc/api/jade/core/behaviours/Behaviour.html)
 [^nota4]: API de programación de [JADE](https://jade.tilab.com/doc/api/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjI0ODI2Myw3NzI1MDg4MSw0ODA0Mz
-UwOTQsMTA4NjQzNDY4NSwtMTYxNzAxOTU5Miw2MzMyNjM3Mjcs
-LTEwNTc0MzY5OTgsMTYzNTk5MTQ0NSw4MjE3MjQ0NTksMTAwMD
-g3Mjk5NiwxNzQ5NTQyNDcwXX0=
+eyJoaXN0b3J5IjpbMTM2Njg4MDAwNSwtNzQ2MjQ4MjYzLDc3Mj
+UwODgxLDQ4MDQzNTA5NCwxMDg2NDM0Njg1LC0xNjE3MDE5NTky
+LDYzMzI2MzcyNywtMTA1NzQzNjk5OCwxNjM1OTkxNDQ1LDgyMT
+cyNDQ1OSwxMDAwODcyOTk2LDE3NDk1NDI0NzBdfQ==
 -->
