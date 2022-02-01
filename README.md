@@ -1,4 +1,4 @@
-[![logo](https:///graphics/gplv3-127x51.png)](https://choosealicense.com/licenses/gpl-3.0)
+[![logo](https://www.gnu.org/graphics/gplv3-127x51.png)](https://choosealicense.com/licenses/gpl-3.0/)
 # Guión de Prácticas
 ## 1. Introducción: Crear un primer agente
 
