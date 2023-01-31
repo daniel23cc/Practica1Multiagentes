@@ -395,7 +395,7 @@ Además, crear una nueva tarea al agente que realice lo siguiente:
 
 ---
 [proyecto]: https://gitlab.com/ssccdd/guionsesion1/raw/master/img/nuevoProyecto.jpg
-[imagen1]: https://gitlab.com/ssccdd/guionsesion1/raw/master/img/imagen1.jpg "Nuevo Proyecto"
+[imagen1]: https://gitlab.com/ssmmaa/guionsesion1/raw/master/img/imagen1.jpg "Nuevo Proyecto"
 [imagen2]: https://gitlab.com/ssmmaa/guionsesion1/raw/master/img/imagen2.jpg "Nombre Proyecto"
 [imagen3]: https://gitlab.com/ssmmaa/guionsesion1/raw/master/img/imagen3.jpg "Ejecución Proyecto"
 [imagen4]: https://gitlab.com/ssmmaa/guionsesion1/raw/master/img/imagen4.jpg "Crear JFrame"
