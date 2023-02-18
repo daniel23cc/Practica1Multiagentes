@@ -46,15 +46,14 @@ public class AgenteMonitor extends Agent {
         try {
             //Inicialización de las variables del agente
             //archivo="configuracion.txt";
-            leerArchivo();
 
             //Configuración del GUI
             myGui2 = new AgenteMonitorJFrame(this);
             myGui2.setVisible(true);
             myGui2.presentarSalida("Se inicializa la ejecución de " + this.getName() + "\n");
-            System.out.println("Se inicia la ejecución del agente: " + this.getName());
+            System.out.println("Se inicia la ejecucion del agente: " + this.getName());
             //Registro del agente en las Páginas Amarrillas
-
+            leerArchivo();
             //Registro de la Ontología
             DFAgentDescription dfd = new DFAgentDescription();
             dfd.setName(getAID());
@@ -97,7 +96,8 @@ public class AgenteMonitor extends Agent {
         if (args != null && args.length > 0) {
             // Lee el fichero de configuración
             nombreFichero = (String) args[0];
-            System.out.println("****LEYENDO ARCHIVO: " + nombreFichero + " ****");
+            //System.out.println("****LEYENDO ARCHIVO: " + nombreFichero + " ****");
+            myGui2.presentarSalida("****LEYENDO ARCHIVO: " + nombreFichero + " **** \n");
             try (BufferedReader reader = new BufferedReader(new FileReader(nombreFichero))) {
                 String linea = reader.readLine();
                 tiempoCreacionAgentes = Integer.parseInt(linea);
@@ -113,13 +113,24 @@ public class AgenteMonitor extends Agent {
                     numEjecuciones = argumentos[1].split(" ")[1];
 
                     arrayNombreAgentes.add(nombreAgente);
-                    System.out.println("Nombre: " + nombreAgente);
+                    //System.out.println("Nombre: " + nombreAgente);
                     arrayClaseAgentes.add(claseAgente);
-                    System.out.println("Clase: " + claseAgente);
+                    //System.out.println("Clase: " + claseAgente);
                     arrayEjecucionesAgentes.add(numEjecuciones);
-                    System.out.println("Ejecuciones: " + numEjecuciones);
-
+                    //System.out.println("Ejecuciones: " + numEjecuciones);
                 }
+
+                myGui2.presentarSalida("Agentes que se van a crear: ");
+                for (int i = 0; i < arrayNombreAgentes.size(); i++) {
+                    myGui2.presentarSalida(arrayNombreAgentes.get(i)+", ");
+                }
+
+                myGui2.presentarSalida("\nTiempos de ejecuciones respectivos: ");
+                for (int i = 0; i < arrayEjecucionesAgentes.size(); i++) {
+                    myGui2.presentarSalida(arrayEjecucionesAgentes.get(i)+", ");
+                }
+
+                myGui2.presentarSalida("\nIntervalo ciclico del monitor: "+String.valueOf(tiempoCreacionAgentes)+" segs");
             } catch (IOException ex) {
                 System.err.println("Error al leer el fichero de configuración: " + ex.getMessage());
                 throw new Exception();
@@ -129,7 +140,9 @@ public class AgenteMonitor extends Agent {
 
     //Clases internas que representan las tareas del agente
     public class TareaCrearAgentes extends TickerBehaviour {
-        private int n=0;
+
+        private int n = 0;
+
         //Tarea de ejemplo que se repite cada 10 segundos
         public TareaCrearAgentes(Agent a, long period) {
             super(a, period);
@@ -141,20 +154,17 @@ public class AgenteMonitor extends Agent {
             String arrayAuxiliar[] = new String[1];
             Object[] arrAux = new Object[1];
             arrAux[0] = arrayEjecucionesAgentes.get(n);
-            System.out.println("Creando agente...");
-            //arrayEjecucionesAgentes.remove(0);
+            myGui2.presentarSalida("\nCreando agente...");
             try {
                 System.out.println(arrayNombreAgentes.get(n) + "; " + arrayClaseAgentes.get(n) + " " + arrAux[0]);
                 MicroRuntime.startAgent(arrayNombreAgentes.get(n), arrayClaseAgentes.get(n), arrAux);
-                //arrayNombreAgentes.remove(0);
-                //arrayClaseAgentes.remove(0);
             } catch (Exception ex) {
                 Logger.getLogger(AgenteMonitor.class.getName()).log(Level.SEVERE, null, ex);
             }
             n++;
-            
-            if(n==arrayNombreAgentes.size()){
-                n=0;
+
+            if (n == arrayNombreAgentes.size()) {
+                n = 0;
             }
         }
     }

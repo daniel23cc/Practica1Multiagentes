@@ -83,7 +83,7 @@ public class AgenteDemo extends Agent {
 
         //Se liberan los recuros y se despide
         myGui.dispose();
-        System.out.println("Finaliza la ejecución de " + this.getName());
+        System.out.println("Finaliza la ejecución de " + this.getName() + " por llegar a las " + EJECUCIONES_MAXIMAS + " ejecuciones");
     }
 
     //Métodos del agente
@@ -98,11 +98,10 @@ public class AgenteDemo extends Agent {
         @Override
         protected void onTick() {
             ejecuciones++;
-            myGui.presentarSalida("\nEjecución número: " + ejecuciones + "\n");
-            System.out.println("\nEjecución número: " + ejecuciones + "\n");
+            myGui.presentarSalida("\nEjecucion número: " + ejecuciones + " / "+EJECUCIONES_MAXIMAS+"\n");
+            //System.out.println("\nEjecucion número: " + ejecuciones + "\n");
             if (ejecuciones == EJECUCIONES_MAXIMAS) {
                 myAgent.doDelete();
-                System.out.println("Finaliza la ejecución de " + this.myAgent.getName() + " por llegar a las " + ejecuciones + " ejecuciones");
             } else {
                 if (ejecuciones % 2 == 0) {
                     myGui.presentarSalida("       Nº ejecuc par --> Generando secuencia de " + ejecuciones + " num aleatorios: ");

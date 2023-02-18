@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.uja.ssmmaa</groupId>
-    <artifactId>AgenteDemo</artifactId>
-    <version>v2.0</version>
+    <groupId>com.uja.ssmmaa.curso2223</groupId>
+    <artifactId>PrimerAgente</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -11,30 +11,24 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     
+    <dependencies>
+        <dependency> 
+            <groupId>com.tilab.jade</groupId> 
+            <artifactId>jade</artifactId> 
+          
+            <version>4.5.0</version>
+        </dependency>
+    </dependencies>
+
     <repositories>
-        <repository> 
-            <id>tilab</id> 
+        <repository>
+            <id>tilab</id>
             <url>https://jade.tilab.com/maven/</url> 
         </repository>
     </repositories>
-    
-    <dependencies>
-        <dependency>  
-            <groupId>com.tilab.jade</groupId> 
-            <artifactId>jade</artifactId> 
-            <version>4.5.0</version>  
-        </dependency>
-    </dependencies>
-    <name>PrimerAgente</name>
-    <description>Ejemplo para el inicio de los proyectos de agentes JADE</description>
-    
-    
-    
-    
-    
-    
-    <build>
-        <finalName>Practica1dcc00058</finalName>
+
+<build>
+        <finalName>Practica1</finalName>
         <plugins>        
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -80,6 +74,7 @@
             </plugin>
         </plugins>
     </build>
+
     
     
 </project>
