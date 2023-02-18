@@ -112,9 +112,6 @@ public class AgenteMonitor extends Agent {
                     claseAgente = argumentos[1].split(" ")[0];
                     numEjecuciones = argumentos[1].split(" ")[1];
 
-                    //                    String[] elementos = linea.split(":");
-                    //                    String nombreAgente = elementos[0];
-                    //                    int ejecuciones = Integer.parseInt(elementos[1]);
                     arrayNombreAgentes.add(nombreAgente);
                     System.out.println("Nombre: " + nombreAgente);
                     arrayClaseAgentes.add(claseAgente);
@@ -132,7 +129,7 @@ public class AgenteMonitor extends Agent {
 
     //Clases internas que representan las tareas del agente
     public class TareaCrearAgentes extends TickerBehaviour {
-
+        private int n=0;
         //Tarea de ejemplo que se repite cada 10 segundos
         public TareaCrearAgentes(Agent a, long period) {
             super(a, period);
@@ -140,26 +137,25 @@ public class AgenteMonitor extends Agent {
 
         @Override
         protected void onTick() {
-            
-            String arrayAuxiliar[] = new String[1];
-            if (!arrayNombreAgentes.isEmpty()) {
-                Object[] arrAux=new Object[1];
-                arrAux[0]=arrayEjecucionesAgentes.get(0);
-                System.out.println("Creando agente...");
-                arrayEjecucionesAgentes.remove(0);
-                try {
-                    System.out.println(arrayNombreAgentes.get(0) + "; "+arrayClaseAgentes.get(0)+" "+arrAux[0]);
-                    MicroRuntime.startAgent(arrayNombreAgentes.get(0), arrayClaseAgentes.get(0), arrAux);
-                    arrayNombreAgentes.remove(0);
-                    arrayClaseAgentes.remove(0);
-                } catch (Exception ex) {
-                    Logger.getLogger(AgenteMonitor.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            }else{
-                myAgent.doDelete();
-                System.out.println("Finaliza la ejecución de " + this.myAgent.getName() + " quedarse sin agentes por crear");
-            }
 
+            String arrayAuxiliar[] = new String[1];
+            Object[] arrAux = new Object[1];
+            arrAux[0] = arrayEjecucionesAgentes.get(n);
+            System.out.println("Creando agente...");
+            //arrayEjecucionesAgentes.remove(0);
+            try {
+                System.out.println(arrayNombreAgentes.get(n) + "; " + arrayClaseAgentes.get(n) + " " + arrAux[0]);
+                MicroRuntime.startAgent(arrayNombreAgentes.get(n), arrayClaseAgentes.get(n), arrAux);
+                //arrayNombreAgentes.remove(0);
+                //arrayClaseAgentes.remove(0);
+            } catch (Exception ex) {
+                Logger.getLogger(AgenteMonitor.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            n++;
+            
+            if(n==arrayNombreAgentes.size()){
+                n=0;
+            }
         }
     }
 
